@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server",
-    "build": "cross-env NODE_ENV=production webpack -p"
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "deploy":"gh-pages"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "css-loader": "^4.3.0",
     "dotenv-webpack": "^1.7.0",
     "file-loader": "^6.1.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
@@ -41,5 +43,6 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "homepage": "https://costar011.github.io/music-homepage/"
 }
