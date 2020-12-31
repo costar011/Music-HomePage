@@ -1,0 +1,38 @@
+.MM01 {
+  width: 100%;
+  height: 100%;
+}
+
+.MM01 .MM01__title {
+  margin-left: 10px;
+
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.MM01 .MM01__desc {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.MM01 .MM01__composer {
+  font-size: 18px;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.MM01 .MM01__desc .MM01__composer__introduce {
+  font-size: 15px;
+  margin-left: 35px;
+}
+
+.MM01 .MM01__point {
+  font-size: 18px;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.MM01 .MM01__point__desc {
+  font-size: 15px;
+  margin-left: 35px;
+}
